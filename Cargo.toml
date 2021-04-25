@@ -1,0 +1,13 @@
+[package]
+name = "build_rs"
+description = "helpers and utilities for build.rs scripts"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/derekdreery/build_rs"
+version = "0.1.0"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.40"
